@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.adara.yash.memelordthesoundboard.Main2Activity"
+    android:background="#314451"
+    android:orientation="vertical">
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_gravity="bottom|right"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="20dp"
+        android:src="@drawable/ic_action_home_fba"
+        android:backgroundTint="@color/colorPrimaryDark"
+        app:pressedTranslationZ="12dp"
+        android:elevation="6dp"
+        android:id="@+id/fab_home"
+        />
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_gravity="bottom|right"
+        android:layout_marginBottom="80dp"
+        android:layout_marginRight="20dp"
+        android:src="@drawable/ic_action_fab_fav"
+        android:backgroundTint="#A3ACB1"
+        app:pressedTranslationZ="12dp"
+        android:elevation="6dp"
+        android:id="@+id/fab_fav"
+        />
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_gravity="bottom|right"
+        android:layout_marginBottom="140dp"
+        android:layout_marginRight="20dp"
+        android:src="@drawable/ic_action_fba_cat"
+        android:backgroundTint="#A3ACB1"
+        app:pressedTranslationZ="12dp"
+        android:elevation="6dp"
+        android:id="@+id/fab_cat"
+        />
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_gravity="bottom|right"
+        android:layout_marginBottom="200dp"
+        android:layout_marginRight="20dp"
+        android:src="@drawable/ic_action_fab_stop"
+        android:backgroundTint="#A3ACB1"
+        app:pressedTranslationZ="12dp"
+        android:elevation="6dp"
+        android:id="@+id/fab_stop"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#314451"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="30dp"
+            android:fontFamily="cursive"
+            android:text="Human Sounds"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:textSize="46sp" />
+
+
+
+
+        <ListView
+            android:id="@+id/lv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="vertical">
+        </ListView>
+    </LinearLayout>
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:adSize ="BANNER"
+        android:layout_gravity="bottom|center"
+        app:adUnitId="ca-app-pub-9804648583897414/3386640544"/>
+
+</android.support.design.widget.CoordinatorLayout>

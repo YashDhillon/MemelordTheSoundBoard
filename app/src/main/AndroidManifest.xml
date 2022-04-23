@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.adara.yash.memelordthesoundboard">
+
+    <!-- <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.adara.yash.memelordthesoundboard.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.adara.yash.memelordthesoundboard.Main2Activity" />
+        <activity android:name="com.adara.yash.memelordthesoundboard.Main3Activity" />
+        <activity android:name="com.adara.yash.memelordthesoundboard.Main4Activity" />
+        <activity android:name="com.adara.yash.memelordthesoundboard.Main5Activity" />
+        <activity android:name="com.adara.yash.memelordthesoundboard.Main6Activity" />
+        <activity android:name="com.adara.yash.memelordthesoundboard.Main7Activity" />
+        <activity android:name="com.adara.yash.memelordthesoundboard.Main9Activity" />
+        <activity android:name="com.adara.yash.memelordthesoundboard.Main10Activity" />
+        <activity android:name="com.adara.yash.memelordthesoundboard.Main11Activity" />
+        <activity android:name="com.adara.yash.memelordthesoundboard.Main12Activity" />
+        <activity android:name="com.adara.yash.memelordthesoundboard.Main13Activity" />
+        <activity android:name="com.adara.yash.memelordthesoundboard.Main14Activity"></activity>
+    </application>
+
+</manifest>
